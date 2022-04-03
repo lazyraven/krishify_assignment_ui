@@ -3,18 +3,21 @@
   <!-- <LeadGenerationForm /> -->
   <Comments></Comments>
   <GenerationForm></GenerationForm>
+  <FarmerDetails></FarmerDetails>
 </template>
 
 <script>
 // import LeadGenerationForm from "./components/LeadGenerationForm.vue";
 import Comments from "./components/Comments.vue";
 import GenerationForm from "./components/GenerationForm.vue";
+import FarmerDetails from "./components/FarmerDetails.vue";
 
 export default {
   name: "App",
   components: {
     Comments,
     GenerationForm,
+    FarmerDetails,
   },
 };
 </script>

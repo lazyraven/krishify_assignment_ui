@@ -40,7 +40,9 @@
 
     <div>
       <div class="flex flex-col gap-6">
-        <div class="flex gap-2">
+        <div
+          class="flex gap-2 border-r-4 bg-white shadow-md border-gray-200 h-16"
+        >
           <div class="flex-none rounded-lg w-14 h-14">
             <img
               src="https://pngset.com/images/profile-icon-svg-free-download-from-pixlokcom-for-adult-sleeve-clothing-person-face-transparent-png-2884841.png"
@@ -96,7 +98,12 @@
           </div>
         </div>
 
-        <div class="flex gap-2">
+        <!-- <div
+          class="flex gap-2 border-r-4 border-gray-200 border-b-4 border-gray-200 h-16"
+        > -->
+        <div
+          class="flex gap-2 border-r-4 bg-white shadow-md border-gray-200 h-16"
+        >
           <div class="flex-none w-14 h-14">
             <div class="flex-none rounded-lg w-14 h-14">
               <img
@@ -146,7 +153,9 @@
           </div>
           <!-- </div> -->
         </div>
-        <div class="flex gap-2">
+        <div
+          class="flex gap-2 border-r-4 bg-white shadow-md border-gray-200 h-16"
+        >
           <div class="flex-none rounded-lg w-14 h-14">
             <img
               src="https://pngset.com/images/profile-icon-svg-free-download-from-pixlokcom-for-adult-sleeve-clothing-person-face-transparent-png-2884841.png"
@@ -192,7 +201,9 @@
             </button>
           </div>
         </div>
-        <div class="flex gap-2">
+        <div
+          class="flex gap-2 border-r-4 bg-white shadow-md border-gray-200 h-16"
+        >
           <div class="flex-none w-14 h-14">
             <button type="button" class="bg-emerald-100 p-2 rounded-lg">
               <svg
