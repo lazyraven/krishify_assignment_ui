@@ -2,16 +2,19 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <!-- <LeadGenerationForm /> -->
   <Comments></Comments>
+  <GenerationForm></GenerationForm>
 </template>
 
 <script>
 // import LeadGenerationForm from "./components/LeadGenerationForm.vue";
 import Comments from "./components/Comments.vue";
+import GenerationForm from "./components/GenerationForm.vue";
 
 export default {
   name: "App",
   components: {
     Comments,
+    GenerationForm,
   },
 };
 </script>
