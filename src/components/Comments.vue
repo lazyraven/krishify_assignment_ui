@@ -1,13 +1,11 @@
 <template>
-  <h1>Comments</h1>
-
   <div
     class="flex flex-col gap-10 border bg-white shadow-lg m-6 p-6 rounded-md"
   >
     <!-- comment header starts -->
     <div class="flex gap-4 items-center">
       <div class="flex-none w-14">
-        <button type="button" class="bg-emerald-100 p-2 rounded-lg">
+        <button type="button" class="bg-blue-50 p-2 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-8 w-8 text-emerald-700"
@@ -54,7 +52,7 @@
           </div>
         </div>
 
-        <div class="flex gap-2">
+        <div class="flex gap-2 mr-3">
           <div class="flex-none w-14 h-14">
             <div class="flex-none rounded-lg w-14 h-14">
               <img
@@ -75,11 +73,11 @@
                 Mere crops mein keede padh rahe, kya karein ? Mere crops mein
                 keede padh rahe, kya karein ?
               </p>
-              <span class="text-xs text-emerald-700 font-medium">1 Reply</span>
+              <span class="text-xs text-emerald-700 font-medium"> Reply</span>
             </div>
           </div>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 mr-3">
           <div class="flex-none rounded-lg w-14 h-14">
             <img
               src="https://pngset.com/images/profile-icon-svg-free-download-from-pixlokcom-for-adult-sleeve-clothing-person-face-transparent-png-2884841.png"
@@ -98,13 +96,12 @@
                 Mere crops mein keede padh rahe, kya karein ? Mere crops mein
                 keede padh rahe, kya karein ?
               </p>
-              <span class="text-xs text-emerald-700 font-medium">1 Reply</span>
+              <span class="text-xs text-emerald-700 font-medium"> Reply</span>
             </div>
           </div>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 mr-3">
           <div class="flex-none w-14 h-14">
-            <!-- <div class="p-3"> -->
             <button type="button" class="bg-emerald-100 p-2 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -135,7 +132,7 @@
                 Mere crops mein keede padh rahe, kya karein ? Mere crops mein
                 keede padh rahe, kya karein ?
               </p>
-              <span class="text-xs text-emerald-700 font-medium">1 Reply</span>
+              <span class="text-xs text-emerald-700 font-medium"> Reply</span>
             </div>
           </div>
         </div>

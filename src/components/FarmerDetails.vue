@@ -1,12 +1,14 @@
 <template>
   <div class="flex flex-col gap-3 border bg-white shadow-lg m-6 p-6 rounded-md">
+    <!-- comment header starts -->
     <div class="flex items-center">
       <div class="grow text-emerald-700 text-lg font-medium">
         Farmer Details
       </div>
     </div>
-    <div class="flex p-3">
-      <div class="flex-none gap-4">
+    <!-- comment header ends -->
+    <div class="flex gap-3 p-3">
+      <div class="flex-none">
         <div class="bg-blue-50 p-2 rounded-lg gap-3">
           <img
             src="https://pngset.com/images/profile-icon-svg-free-download-from-pixlokcom-for-adult-sleeve-clothing-person-face-transparent-png-2884841.png"
