@@ -40,10 +40,8 @@
 
     <div>
       <div class="flex flex-col gap-6">
-        <div
-          class="flex gap-2 border-r-4 bg-white shadow-md border-gray-200 h-16"
-        >
-          <div class="flex-none rounded-lg w-14 h-14">
+        <div class="flex gap-2 p-2 rounded-md bg-white shadow-md items-center">
+          <div class="flex-none rounded-lg w-14">
             <img
               src="https://pngset.com/images/profile-icon-svg-free-download-from-pixlokcom-for-adult-sleeve-clothing-person-face-transparent-png-2884841.png"
               class="rotate-0 rounded-lg w-10"
@@ -51,20 +49,21 @@
           </div>
           <div class="grow">
             <div class="flex flex-col gap-1">
-              <div class="flex">
-                <div class="grow h-14">
+              <div class="flex items-center">
+                <div class="grow">
                   <span class="font-semibold text-zinc-500">
                     01 Lead_january_2022
                   </span>
-                  <p class="text-xs text-gray-400">
-                    <span class="gap-4"> by Avinash Kumar </span>
-                    <span>Jan 4th, 2022</span>
+                  <p class="text-xs flex gap-4">
+                    <span class="text-gray-500"> by Avinash Kumar </span>
+                    <span class="text-gray-400">Jan 4th, 2022</span>
                   </p>
                 </div>
-                <div class="grow-0 h-14 pr-2">
+                <div class="grow-0 pr-2"></div>
+                <div class="flex gap-4 flex-none items-center">
                   <button
                     type="button"
-                    class="bg-blue-50 text-emerald-600 text-sm p-2 rounded-lg font-semibold"
+                    class="bg-blue-50 text-emerald-600 text-sm p-2 rounded-lg"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -81,11 +80,9 @@
                       />
                     </svg>
                   </button>
-                </div>
-                <div class="grow h-14">
                   <button
                     type="button"
-                    class="bg-blue-50 text-emerald-600 text-sm p-2 rounded-lg h-10"
+                    class="bg-blue-50 text-emerald-600 text-sm p-3 rounded-lg"
                   >
                     Select this form
                   </button>

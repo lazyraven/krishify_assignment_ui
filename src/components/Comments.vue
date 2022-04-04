@@ -29,8 +29,8 @@
     <!-- comment header ends -->
 
     <div>
-      <div class="flex flex-col gap-6">
-        <div class="flex gap-2">
+      <div class="flex flex-col gap-6 h-72 overflow-y-auto scroll-element">
+        <div class="flex gap-2 mr-3">
           <div class="flex-none rounded-lg w-14 h-14">
             <img
               src="https://pngset.com/images/profile-icon-svg-free-download-from-pixlokcom-for-adult-sleeve-clothing-person-face-transparent-png-2884841.png"
@@ -168,3 +168,15 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.scroll-element::-webkit-scrollbar {
+  width: 4px;
+  height: 100%;
+  background-color: #e5e5e5;
+}
+
+.scroll-element::-webkit-scrollbar-thumb {
+  background: #047857;
+}
+</style>
